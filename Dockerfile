@@ -12,5 +12,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN mkdir "notebooks"
-VOLUME /notebooks
+VOLUME /
