@@ -1,0 +1,15 @@
+#PRODUCTION
+version: '3.3'
+
+services:
+  notebooks:
+    container_name: juputer-notebooks
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pavelcode5426-jupyter-notebooks
+    restart: always
+    volumes:
+      - ./code:/code
+    ports:
+      - 8888:8888
