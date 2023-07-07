@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-VOLUME /
+VOLUME /app

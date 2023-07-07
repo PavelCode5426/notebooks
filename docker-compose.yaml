@@ -10,6 +10,6 @@ services:
     image: pavelcode5426-jupyter-notebooks
     restart: always
     volumes:
-      - ./:/
+      - ./:/app
     ports:
       - 8888:8888
